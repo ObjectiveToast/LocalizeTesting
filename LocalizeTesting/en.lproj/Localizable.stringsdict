@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>%lu out of %lu Hasselhoff movies watched</key>
+        <dict>
+            <key>NSStringLocalizedFormatKey</key>
+            <string>%1$#@lu_hasselhoff_viewings@</string>
+            <key>lu_hasselhoff_viewings</key>
+            <dict>
+                <key>NSStringFormatSpecTypeKey</key>
+                <string>NSStringPluralRuleType</string>
+                <key>NSStringFormatValueTypeKey</key>
+                <string>lu</string>
+                <key>zero</key>
+                <string>No Hasselhoff Movies? You are hassling the Hoff.</string>
+                <key>one</key>
+                <string>One %2$#@lu_movies@</string>
+                <key>other</key>
+                <string>%lu %2$#@lu_movies@</string>
+            </dict>
+            <key>lu_movies</key>
+            <dict>
+                <key>NSStringFormatSpecTypeKey</key>
+                <string>NSStringPluralRuleType</string>
+                <key>NSStringFormatValueTypeKey</key>
+                <string>lu</string>
+                <key>one</key>
+                <string>Hasselhoff movie. Do Better.</string>
+                <key>other</key>
+                <string>of %lu Hasselhoff movies!</string>
+            </dict>
+        </dict>
+        <key>%@ is %lu (his/her/their) name</key>
+        <dict>
+            <key>NSStringLocalizedFormatKey</key>
+            <string>%@ is %2$#@pronoun_gender@ name</string>
+            <key>pronoun_gender</key>
+            <dict>
+                <key>NSStringFormatSpecTypeKey</key>
+                <string>NSStringGenderRuleType</string>
+                <key>NSStringFormatValueTypeKey</key>
+                <string>lu</string>
+                <key>0</key>
+                <string>his</string>
+                <key>1</key>
+                <string>her</string>
+                <key>2</key>
+                <string>their</string>
+            </dict>
+        </dict>
+    </dict>
+</plist>
